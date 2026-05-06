@@ -35,22 +35,17 @@ export default function Navbar() {
         scrolled ? 'shadow-md' : 'border-b border-gray-border'
       }`}
     >
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[156px] flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 shrink-0">
           <Image
             src="/logo.jpeg"
             alt="MICA Consulting logo"
-            width={70}
-            height={70}
+            width={140}
+            height={140}
             className="rounded-full object-cover"
             priority
           />
-          <div className="hidden sm:block">
-            <span className="font-bold text-gray-dark text-sm tracking-widest uppercase">
-              MICA Consulting
-            </span>
-          </div>
         </Link>
 
         {/* Desktop navigation */}
