@@ -39,11 +39,11 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 shrink-0">
           <Image
-            src="/logo.jpeg"
+            src="/logo.png"
             alt="MICA Consulting logo"
             width={140}
             height={140}
-            className="rounded-full object-cover"
+            className="object-contain"
             priority
           />
         </Link>
