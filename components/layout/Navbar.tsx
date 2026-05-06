@@ -35,7 +35,7 @@ export default function Navbar() {
         scrolled ? 'shadow-md' : 'border-b border-gray-border'
       }`}
     >
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[156px] flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 shrink-0">
           <Image
