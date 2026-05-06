@@ -38,13 +38,13 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center shrink-0">
-          <div className="relative overflow-hidden" style={{ width: 148, height: 65 }}>
+          <div className="relative overflow-hidden" style={{ width: 185, height: 81 }}>
             <Image
               src="/logo.png"
               alt="MICA Consulting logo"
-              width={160}
-              height={160}
-              style={{ position: 'absolute', top: -43, left: -6 }}
+              width={200}
+              height={200}
+              style={{ position: 'absolute', top: -53, left: -7 }}
               priority
             />
           </div>
