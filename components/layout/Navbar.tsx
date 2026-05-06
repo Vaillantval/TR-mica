@@ -41,8 +41,8 @@ export default function Navbar() {
           <Image
             src="/logo.jpeg"
             alt="MICA Consulting logo"
-            width={38}
-            height={38}
+            width={48}
+            height={48}
             className="rounded-full object-cover"
             priority
           />
