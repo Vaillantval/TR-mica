@@ -35,15 +35,15 @@ export default function Navbar() {
         scrolled ? 'shadow-md' : 'border-b border-gray-border'
       }`}
     >
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-[10px] flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 shrink-0">
           <Image
             src="/logo.png"
             alt="MICA Consulting logo"
-            width={140}
+            width={280}
             height={140}
-            className="object-contain"
+            className=""
             priority
           />
         </Link>
